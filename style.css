@@ -1,0 +1,82 @@
+header{
+    padding:1rem;
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(31, 8, 138);
+}
+
+.search{
+    background-color: rgb(196, 229, 255);
+    border: 0px solid ;
+    padding:0.5rem 1rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.search:focus{
+    outline:0;
+    background-color: rgb(157, 234, 234);
+    color: black;
+}
+
+.search::placeholder{
+    color: black;
+}
+
+.pagination{
+    display:flex;
+    /* margin:10px 30px; */
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(31, 8, 138);
+    font-weight: bold;
+}
+.page{
+    padding:20px;
+    cursor:pointer;
+}
+
+.page.disabled{
+    cursor:pointer;
+    color:grey;
+}
+
+.current{
+    padding: 10px 20px;
+    border-radius: 50%;
+    border: 5px solid ;
+    font-size: 20px;
+    font-weight: 600;
+}
+.small{
+    color:black;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 50px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 100px;
+    size-adjust: 30px;
+} 
+.card {
+    min-height: 500px;
+    max-height: 500px;
+}
+.card-img-top {
+    max-height: 350px;
+    min-height: 300px;
+
+}
+.container-fluid{
+    background-color: rgb(90, 90, 218);
+    text-align: center;
+}
+
+.title-header{
+    color: white;
+    font-weight: bold;
+}
